@@ -129,6 +129,7 @@ header{
     font-size: 1rem;
     text-transform: uppercase;
     margin-top: 20px;
+    cursor: pointer;
 }
 .btn-pink{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -147,7 +148,49 @@ header{
 /* banner style end */
 /* online style start */
 .online{
-    background-color: antiquewhite;
     min-height: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.online-container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.online-title-container{
+
+}
+.online-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.online-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.online-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.online-card-img{
+    border-radius: 16px;
+}
+.online-card-img img{
+    width: 330px;
+}
+.online-card-tag{
+    color: #534C64;
+    font-size: 1rem;
+    margin-top: 20px;
 }
 /* online style end */
