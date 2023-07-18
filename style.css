@@ -194,3 +194,53 @@ header{
     margin-top: 20px;
 }
 /* online style end */
+/* play games style start */
+
+/* play games style end */
+/* games stor style start */
+.games{
+    /* background-color: #caeaf7; */
+    min-height: 50px;
+    margin-bottom: 100px;
+}
+.games-container{
+    border: 1px solid tomato;
+    max-width: 1400px;
+    margin: 0 auto;
+ }
+ .games-container-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ }
+ .games-container-bottom{
+    display: flex;
+    justify-content: space-around;
+ }
+ .games-item{
+    width: 200px;
+    height: 60px;
+    border-radius: 35px;
+    /* background-color: #efaed5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .games-item h6{
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+ .games-item img{
+    width: 45px;
+    height: 45px;
+ }
+ .games-item:hover{
+    cursor: pointer;
+    border: 1px solid #F948B2;
+ }
+ h6:hover{
+    color: #F948B2;
+ }
+/* games stor style end */
