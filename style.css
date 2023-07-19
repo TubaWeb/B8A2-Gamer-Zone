@@ -12,7 +12,6 @@ header{
 
 }
 .nav-container{
-    /* border: 1px solid rgba(158, 158, 158, 0.704); */
     max-width: 1400px;
     min-height: 70px;
     margin: 0 auto;
@@ -22,7 +21,6 @@ header{
 
 }
 .logo-container{
-    /* border: 1px solid rgb(71, 255, 160); */
     width: 50%;
     display: flex;
     align-items: center;
@@ -40,7 +38,6 @@ header{
     color: #FF42A5;
 }
 .item-container{
-    /* border: 1px solid rgb(101, 60, 234); */
     width: 50%;
 }
 .list-item{
@@ -84,15 +81,12 @@ header{
 /* banner style start */
 
 .banner-container{
-    /* border: 1px solid tomato; */
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
 }
 .banner-item{
     width: 50%;
-    /* border: 1px solid rgb(71, 255, 95); */
-    /* background-color: #eed3e3; */
     text-align: left;
 }
 .banner-item-all{
@@ -139,13 +133,13 @@ header{
 }
 .banner-img{
     width: 50%;
-    /* border: 1px solid rgb(120, 71, 255); */
 }
 .banner-img img{
     width: 100%;
     height: 100%;
 }
 /* banner style end */
+
 /* online style start */
 .online{
     min-height: 50px;
@@ -194,9 +188,9 @@ header{
     margin-top: 20px;
 }
 /* online style end */
+
 /* play games style start */
 .play-games{
-    /* background-color: #c7e5f1; */
     margin-bottom: 150px;
 }
 .play-games-container{
@@ -230,29 +224,21 @@ header{
     height: 365px;
 }
 .play-container{
-    /* border: 1px solid tomato; */
-    /* background-color: #4EC5F7; */
     background-image: url("./images/Rectangle\ 67.png");
 }
 .play-inner{
-    /* border: 1px solid rgb(71, 255, 126); */
-    /* background-color: #f74ed5; */
     background-image: url("./images/Rectangle\ 78.png");
     transform: scale(0.9) translateY(400px) translateX(600px);
-    /* transform: scale(0.5) translateY(300px) translateX(300px); */
-    /* display: none; */
-    /* display: none; */
 }
 
 /* play games style end */
+
 /* games stor style start */
 .games{
-    /* background-color: #caeaf7; */
     min-height: 50px;
     margin-bottom: 150px;
 }
 .games-container{
-    /* border: 1px solid tomato; */
     max-width: 1400px;
     margin: 0 auto;
  }
@@ -269,7 +255,6 @@ header{
     width: 200px;
     height: 60px;
     border-radius: 35px;
-    /* background-color: #efaed5; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,15 +277,14 @@ header{
     color: #F948B2;
  }
 /* games stor style end */
+
 /* footer section start */
 .footer-bg{
-    /* border: 1px solid tomato; */
     min-height: 600px;
     background-color: #0B0223;;
 }
 .footer-container{
     max-width: 1400px;
-    /* border: 1px solid wheat; */
     min-height: 450px;
     margin: 0 auto;
     padding: 150px 0 0 0;
@@ -308,19 +292,15 @@ header{
 .copyright{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    /* background-color: #ff0050; */
     font-size: 1rem;
     font-weight: 500;
 }
 .footer-logo{
-    /* background-color: #4EC5F7; */
-    /* border: 1px solid rgb(232, 89, 6); */
     min-height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    /* margin-top: 100px; */
 }
 .footer-logo img{
     width: 70px;
@@ -335,7 +315,6 @@ header{
     color: #F948B2;
 }
 .footer-story{
-    /* border: 1px solid rgb(232, 89, 6); */
     min-height: 30px;
     margin-top: 30px;
     display: flex;
@@ -354,11 +333,8 @@ header{
     color: #F948B2;
 }
 .footer-icons{
-    /* border: 1px solid rgb(6, 232, 96); */
     min-height: 50px;
     margin-top: 30px;
-    /* background-color: #4EC5F7; */
-    /* display: flex; */
 }
 .footer-icons ul{
     display: flex;
@@ -367,13 +343,11 @@ header{
 }
 .footer-icons ul li{
     list-style: none;
-    /* background-color: #8758F1; */
 }
 .footer-icons ul li a{
     color: white;
     font-size: 1.8rem;
     text-decoration: none;
-    /* background-color: #8758F1; */
 }
 .fa-twitter:hover{
     color: #00acee;
@@ -405,3 +379,18 @@ header{
     font-size: .8rem;
 }
 /* footer section end */
+.hide{
+    display: none;
+}
+
+
+/* Responsive Media Query */
+
+/* responsive for mobile device */
+@media screen and (max-width:576px){
+    
+} 
+/* responsive for tablet device */
+@media screen and (min-width:576px) and (max-width:960px) {
+    
+}
