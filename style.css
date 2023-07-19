@@ -195,6 +195,54 @@ header{
 }
 /* online style end */
 /* play games style start */
+.play-games{
+    /* background-color: #c7e5f1; */
+    margin-bottom: 150px;
+}
+.play-games-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.play-contact-container h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+.play-contact-container h3 span{
+    color: #F948B2;
+}
+.play-contact-container p{
+    color: #534C64;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.play-container{
+    width: 710px;
+    height: 650px;
+}
+.play-inner{
+    width: 318px;
+    height: 365px;
+}
+.play-container{
+    /* border: 1px solid tomato; */
+    /* background-color: #4EC5F7; */
+    background-image: url("./images/Rectangle\ 67.png");
+}
+.play-inner{
+    /* border: 1px solid rgb(71, 255, 126); */
+    /* background-color: #f74ed5; */
+    background-image: url("./images/Rectangle\ 78.png");
+    transform: scale(0.9) translateY(400px) translateX(600px);
+    /* transform: scale(0.5) translateY(300px) translateX(300px); */
+    /* display: none; */
+    /* display: none; */
+}
 
 /* play games style end */
 /* games stor style start */
