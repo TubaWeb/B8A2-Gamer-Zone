@@ -16,9 +16,9 @@ header{
     min-height: 70px;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
     align-items: center;
-
-
+    margin-bottom: 70px;
 }
 .logo-container{
     width: 50%;
@@ -207,8 +207,9 @@ header{
   button{
     font-size: 20px;
     color: red;
-    padding: 5px 15px;
-    border-radius: 10px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin-bottom: 10px;
     border: none;
   }
   
@@ -223,7 +224,7 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: red;
+    color: #F948B2;
     text-align: center;
   }
 /* online style end */
@@ -418,18 +419,4 @@ header{
     font-size: .8rem;
 }
 /* footer section end */
-.hide{
-    display: none;
-}
 
-
-/* Responsive Media Query */
-
-/* responsive for mobile device */
-@media screen and (max-width:576px){
-    
-} 
-/* responsive for tablet device */
-@media screen and (min-width:576px) and (max-width:960px) {
-    
-}
